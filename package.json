@@ -1,0 +1,25 @@
+{
+  "name": "themes-editor",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.0.11",
+    "sass": "^1.49.9",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.8.0",
+    "vite-plugin-components": "^0.13.3",
+    "vite-plugin-pages": "^0.22.0"
+  }
+}
