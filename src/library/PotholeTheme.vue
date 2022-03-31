@@ -14,7 +14,7 @@
 
           <!-- Navigation Section -->
           <div
-            class="box-border flex flex-wrap justify-between p-1 rounded-lg bg-neutral-200 md:justify-end"
+            class="box-border flex flex-wrap justify-between p-1 rounded-lg bg-neutral-700 md:justify-end"
           >
             <a
               v-for="page in project.nav"
