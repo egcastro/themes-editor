@@ -1,12 +1,14 @@
 <template>
   <div :class="{ dark: global.darkMode }" class="transition-colors">
     <div
-      class="flex flex-wrap items-center justify-between p-2 border-b shadow bg-neutral-50 border-neutral-600"
+      class="flex flex-wrap items-center justify-between p-2 border-b shadow dark:bg-neutral-900 bg-neutral-50 border-neutral-600"
     >
       <div class="flex gap-3">
         <router-link
           :class="
-            $route.name === page.name ? 'text-primary-500' : 'text-neutral-900'
+            $route.name === page.name
+              ? 'text-primary-500 dark:text-primary-300'
+              : 'text-neutral-900 dark:text-neutral-50'
           "
           v-for="page in pages"
           :key="page"
